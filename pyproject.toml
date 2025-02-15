@@ -6,6 +6,7 @@ build-backend = "hatchling.build"
 name = "christmas_orchestrator"
 version = "0.1.0"
 dependencies = [
-    "naptha-sdk",
-    "browser-use-sdk"
+    "naptha-sdk==0.1.3",
+    "browser-use-sdk==0.1.0",
+    "websockets>=10.4,<11.0"
 ]
