@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "research_agent"
+version = "0.1.0"
+description = "Research agent for finding Vuori clothing items using browser automation"
+authors = ["Tanmay Sharma"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+naptha-sdk = "*"
+browser-use-sdk = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

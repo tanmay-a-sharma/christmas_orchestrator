@@ -1,0 +1,12 @@
+{
+    "module_type": "agent",
+    "name": "letter_writer_agent",
+    "module": {
+        "name": "letter_writer_agent",
+        "path": "run.py",
+        "class": "LetterWriterAgent"
+    },
+    "node": {
+        "ip": "node.naptha.ai"
+    }
+}

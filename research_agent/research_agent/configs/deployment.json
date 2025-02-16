@@ -1,0 +1,12 @@
+{
+    "module_type": "agent",
+    "name": "research_agent",
+    "module": {
+        "name": "research_agent",
+        "path": "run.py",
+        "class": "ResearchAgent"
+    },
+    "node": {
+        "ip": "node.naptha.ai"
+    }
+}
